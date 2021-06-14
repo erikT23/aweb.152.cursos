@@ -57,7 +57,76 @@
     </nav>
     <br>
     <div class="container">
-       
+
+        <div class="row">
+            <div class="col-6 offset-3">
+                <fieldset>
+                    <legend>formulario de registro</legend>
+                    <form action="" method="">
+                        <ul class="list-style: none;">
+                            <li>
+                                <label for="nombre">nombre: </label>
+                                <input type="text" name="nombre" id="nombre">
+                            </li>
+
+                            <li>
+                                <label for="primerapellido">primer apellido: </label>
+                                <input type="text" name="primerapellido" id="primerapellido">
+                            </li>
+
+                            <li>
+                                <label for="segundoapellido">segundo apellido: </label>
+                                <input type="text" name="segundoapellido" id="segundoapellido">
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="prescencial" value="prescencial">
+                                <label for="prescencial">prescencial</label>
+
+                                <input type="checkbox" id="remoto" value="remoto">
+                                <label for="remoto">remoto</label>
+
+                                <input type="checkbox" id="mixto" value="mixto">
+                                <label for="mixto">mixto</label>
+                            </li>
+                            <li>
+                                <label for="#">sexo</label>
+
+                                <input type="radio" name="sexo" id="hombre" value="hombre">
+                                <label for="hombre">hombre</label>
+
+                                <input type="checkbox" name="sexo" id="mujer" value="mujer">
+                                <label for="mujer">mujer</label>
+                            </li>
+                            <li>
+                                <label for="curso">curso</label>
+                                <select name="curso" id="curso">
+                                    <option value="0">seleccione...</option>
+                                    <option value="1">creatividad y diseño</option>
+                                    <option value="2">database system</option>
+                                    <option value="3">aplicaciones moviles</option>
+                                    <option value="4">finanzas corporativas</option>
+                                </select>
+                            </li>
+                            <li>
+                                <label for="observaciones">observaciones</label>
+                                <br>
+                                <textarea name="observaciones" id="observaciones" cols="30"
+                                    rows="10"></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" value="registrar" name="registrar" id="registrar">
+                                <input type="reset" value="cancelar" name="reset" id="reset">
+                            </li>
+
+                        </ul>
+
+                    </form>
+                </fieldset>
+            </div>
+
+        </div>
+
     </div>
 
 
