@@ -89,15 +89,31 @@
                                 <input type="checkbox" id="mixto" value="mixto">
                                 <label for="mixto">mixto</label>
                             </li>
-                            <li>
-                                <label for="#">sexo</label>
 
-                                <input type="radio" name="sexo" id="hombre" value="hombre">
-                                <label for="hombre">hombre</label>
+                            <div class="form-check">
+                                <li>
+                                    <label for="#">sexo</label>
 
-                                <input type="checkbox" name="sexo" id="mujer" value="mujer">
-                                <label for="mujer">mujer</label>
-                            </li>
+
+
+
+                                </li>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                                    <label for="hombre">hombre</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input type="checkbox" name="sexo" id="mujer" value="mujer">
+                                    <label for="mujer">mujer</label>
+                                </div>
+                            </div>
+
+
+
                             <li>
                                 <label for="curso">curso</label>
                                 <select name="curso" id="curso">
@@ -108,17 +124,20 @@
                                     <option value="4">finanzas corporativas</option>
                                 </select>
                             </li>
-                            <li>
-                                <label for="observaciones">observaciones</label>
-                                <br>
-                                <textarea name="observaciones" id="observaciones" cols="30"
-                                    rows="10"></textarea>
-                            </li>
-                            <li>
-                                <input type="submit" value="registrar" name="registrar" id="registrar">
-                                <input type="reset" value="cancelar" name="reset" id="reset">
-                            </li>
-
+                            <div class="form-group">
+                                <li>
+                                    <label for="observaciones">observaciones</label>
+                                    <br>
+                                    <textarea name="observaciones" id="observaciones" cols="30" rows="10"></textarea>
+                                </li>
+                            </div>
+                            <div class="form-group">
+                                <li>
+                                    <input class="btn btn-success" type="submit" value="registrar" name="registrar"
+                                        id="registrar">
+                                    <input class="btn btn-danger" type="reset" value="cancelar" name="reset" id="reset">
+                                </li>
+                            </div>
                         </ul>
 
                     </form>
